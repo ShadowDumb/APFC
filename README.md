@@ -48,7 +48,6 @@ stop.sh是核心程序和防火墻關閉腳本。
 
 ### 注意事項
 
-
 防火墻默認代理所有應用，如果不想代理某個應用，請在start.sh中繞過所有協議那一項填寫不需要代理的應用的UID，多個UID以空格分開。
 
 您可以通過Shadowsocks或AFWall+查看每個應用的UID。
@@ -63,3 +62,12 @@ tiny具有DNS處理和處理來自iptables轉發的數據的功能。
 
 clash不具備上述功能（目前我沒找到，或者有但是我還不知道怎麼用），因此我給出的方案是使用v2ray中繼後轉發給clash。
 
+### 致謝
+
+iptables規則 by Joyace
+
+Tiny by 烟火的光芒
+
+Clash: [https://github.com/Dreamacro/clash](https://github.com/Dreamacro/clash)
+
+V2Ray: [https://github.com/v2fly/v2ray-core](https://github.com/v2fly/v2ray-core)
