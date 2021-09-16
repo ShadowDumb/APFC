@@ -16,7 +16,7 @@ v2ray文件夾用於存放v2ray程序和配置文件。
 
 start-core.sh是核心程序啟動腳本。
 
-start.sh是完全啟動腳本，包括核心程序和iptables防火墻，包括防火墻功能配置。
+start.sh是完全啟動腳本，包括核心程序和iptables防火墻，以及防火墻功能配置。
 
 state.sh是核心程序和防火墻狀態檢查腳本。
 
@@ -24,7 +24,7 @@ stop.sh是核心程序和防火墻關閉腳本。
 
 ### 使用方法
 
-首先您的安卓設備需要有root權限。
+首先您的安卓設備需要有root權限，並且安裝了busybox，可以使用magisk以及magisk上的busybox模塊，另外您可能需要用到Root Explorer之類的文件管理器。
 
 打包下載所有文件，解壓縮，將得到的文件夾命名為APFC，將APFC文件夾存放到安卓設備根目錄的/data路徑下。
 
@@ -61,5 +61,5 @@ tiny具有DNS處理和處理來自iptables轉發的數據的功能。
 
 綜上所述，overture和redsocks2目前沒啥用。
 
-clash不具備上述功能，因此我給出的方案是使用v2ray中繼後轉發給clash。
+clash不具備上述功能（目前我沒找到，或者有但是我還不知道怎麼用），因此我給出的方案是使用v2ray中繼後轉發給clash。
 
