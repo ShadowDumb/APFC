@@ -68,6 +68,10 @@ iptables規則 by Joyace
 
 Tiny by 烟火的光芒
 
-Clash: [https://github.com/Dreamacro/clash](https://github.com/Dreamacro/clash)
+clash: [https://github.com/Dreamacro/clash](https://github.com/Dreamacro/clash)
 
-V2Ray: [https://github.com/v2fly/v2ray-core](https://github.com/v2fly/v2ray-core)
+overture: [https://github.com/shawn1m/overture](https://github.com/shawn1m/overture)
+
+redsocks2: [https://github.com/akamensky/redsocks2](https://github.com/akamensky/redsocks2)
+
+v2ray: [https://github.com/v2fly/v2ray-core](https://github.com/v2fly/v2ray-core)
