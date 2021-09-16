@@ -53,7 +53,7 @@ stop.sh是核心程序和防火墻關閉腳本。
 
 您可以通過Shadowsocks或AFWall+查看每個應用的UID。
 
-上述start.sh中沒有提到的配置不建議更改。
+上述沒有提到的start.sh配置不建議更改。
 
 v2ray具有redsocks2的功能，而DNS處理僅需要正確配置resolv.conf即可，所以也用不到overture。
 
