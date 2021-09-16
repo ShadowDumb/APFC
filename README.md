@@ -16,9 +16,9 @@ v2ray文件夾用於存放v2ray程序和配置文件。
 
 start-core.sh是核心程序啟動腳本。
 
-start.sh是完全啟動腳本，包括核心程序和iptables防火墻。
+start.sh是完全啟動腳本，包括核心程序和iptables防火墻，包括防火墻功能配置。
 
-state.sh是核心程序和防火墻狀態檢查腳本，包括防火墻功能配置。
+state.sh是核心程序和防火墻狀態檢查腳本。
 
 stop.sh是核心程序和防火墻關閉腳本。
 
