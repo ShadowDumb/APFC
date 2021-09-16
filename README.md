@@ -42,7 +42,7 @@ stop.sh是核心程序和防火墻關閉腳本。
 
 如果您需要使用clash，您仍然需要按照上述步驟配置v2ray，但是建議使用本項目中提供的v2ray配置，也不用額外修改start.sh中的目標轉發端口。
 
-您需要通過https://acl4ssr.netlify.app進行訂閱鏈接轉換。
+您需要通過[https://acl4ssr.netlify.app](https://acl4ssr.netlify.app)進行訂閱鏈接轉換。
 
 下載clash配置文件並命名為config.yaml，將config.yaml存放到clash文件夾中，最後執行start.sh。
 
